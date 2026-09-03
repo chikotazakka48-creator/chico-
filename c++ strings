@@ -1,0 +1,8 @@
+#include <iostream>
+#include <string> // Library wajib untuk string
+
+int main() {
+    std::string teks = "Halo";
+    std::cout << teks;
+    return 0;
+}
