@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main() {
+    int nilai = 80;
+
+    if (nilai >= 70) {
+        std::cout << "Lulus";
+    } else {
+        std::cout << "Gagal";
+    }
+
+    return 0;
+}
