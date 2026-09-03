@@ -1,0 +1,13 @@
+#include <iostream>
+
+struct Mahasiswa {
+    std::string nama;
+    int umur;
+};
+
+int main() {
+    Mahasiswa mhs = {"Chico", 20}; // Membuat dan mengisi variabel struct
+
+    std::cout << mhs.nama << " - " << mhs.umur << " tahun";
+    return 0;
+}
