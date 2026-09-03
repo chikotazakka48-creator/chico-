@@ -1,0 +1,14 @@
+#include <iostream>
+
+class Mobil {
+  public:
+    std::string merek; // Atribut
+};
+
+int main() {
+    Mobil mobilKu;           // Membuat objek bernama mobilKu
+    mobilKu.merek = "Toyota"; // Mengisi nilai atribut
+
+    std::cout << mobilKu.merek; // Output: Toyota
+    return 0;
+}
