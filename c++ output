@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main() {
+    // Menampilkan teks langsung
+    std::cout << "Program Output C++" << std::endl;
+    std::cout << "==================" << std::endl;
+    
+    // Menampilkan data menggunakan variabel
+    int nomor = 10;
+    std::cout << "Angka yang ditampilkan: " << nomor << std::endl;
+
+    return 0;
+}
