@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main() {
+    int a = 10, b = 3;
+
+    std::cout << a + b << "\n"; // Penjumlahan (13)
+    std::cout << a * b << "\n"; // Perkalian (30)
+    std::cout << a % b << "\n"; // Sisa bagi / Modulo (1)
+
+    return 0;
+}
