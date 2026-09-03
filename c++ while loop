@@ -1,0 +1,12 @@
+#include <iostream>
+
+int main() {
+    int i = 1;
+
+    while (i <= 5) {
+        std::cout << i << "\n";
+        i++; // Menambah nilai i sebesar 1 setiap perulangan
+    }
+
+    return 0;
+}
