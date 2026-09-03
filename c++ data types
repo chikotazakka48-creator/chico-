@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main() {
+    int a = 5;          // Bilangan bulat
+    double b = 3.14;    // Bilangan desimal
+    char c = 'Z';       // Satu karakter
+    bool d = true;      // Logika (true/false)
+
+    std::cout << a << "\n" << b << "\n" << c << "\n" << d;
+    return 0;
+}
