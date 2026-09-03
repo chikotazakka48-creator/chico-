@@ -1,0 +1,11 @@
+#include <iostream>
+
+// Membuat fungsi bernama 'sapa'
+void sapa() {
+    std::cout << "Halo!";
+}
+
+int main() {
+    sapa(); // Memanggil fungsi
+    return 0;
+}
