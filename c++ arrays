@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main() {
+    // Membuat array berisi 3 angka
+    int angka[3] = {10, 20, 30};
+
+    // Mengakses dan menampilkan isi array berdasarkan indeks (mulai dari 0)
+    std::cout << angka[0] << "\n"; // Output: 10
+    std::cout << angka[1] << "\n"; // Output: 20
+    std::cout << angka[2];         // Output: 30
+
+    return 0;
+}
