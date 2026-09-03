@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main() {
+    bool benar = true;
+    bool salah = false;
+
+    std::cout << benar << "\n"; // Output: 1
+    std::cout << salah;         // Output: 0
+    return 0;
+}
